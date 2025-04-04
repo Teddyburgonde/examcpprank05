@@ -25,24 +25,15 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 
 1. **Classe abstraite ASpell :**
    - Crée une classe abstraite appelée `ASpell`, en suivant la forme de Coplien.
-   
-   
    - Elle doit contenir les **attributs protégés suivants** :
      - `name` (type `string`)
      - `effects` (type `string`)
-     
-     
    - Ces attributs auront des **getters** :
      - `getName` : retourne une chaîne représentant le nom.
      - `getEffects` : retourne une chaîne représentant les effets.
-     
-     
-     
    - Ajoute une méthode pure virtuelle `clone` qui retourne un pointeur vers un objet `ASpell`.
-   
    - Toutes ces fonctions doivent pouvoir être appelées sur un objet constant.
    - Ajoute un **constructeur** qui prend en paramètres le nom et les effets (dans cet ordre).
-   
 
 ---
 
@@ -51,39 +42,17 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
    - Crée une classe abstraite appelée `ATarget`, également en suivant la forme de Coplien.
    - Elle doit contenir l'attribut **type** (type `string`) et son **getter** :
      - `getType` : retourne une référence constante à une chaîne représentant le type.
-     
-     
-     
    - Ajoute une méthode pure virtuelle `clone`, similaire à celle de `ASpell`.
    - Toutes ces fonctions doivent pouvoir être appelées sur un objet constant.
    - Ajoute un **constructeur** qui prend en paramètre le type.
 
+
    - Ajoute une méthode `getHitBySpell` qui prend une référence constante à un objet `ASpell` :
      - Cette méthode affiche :  
        `<TYPE> has been <EFFECTS>!`  
-       
        Où `<TYPE>` est le type de l'objet `ATarget`, et `<EFFECTS>` correspond à la valeur retournée par la méthode `getEffects` de `ASpell`.
 
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -125,10 +94,6 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 
 
 
-
-
-
-
 4. **Implémentation concrète de ASpell :**
    - Crée une classe appelée `Fwoosh`, qui hérite de `ASpell`.
    - Le constructeur par défaut doit initialiser :
@@ -139,12 +104,60 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 ---
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 5. **Implémentation concrète de ATarget :**
    - Crée une classe appelée `Dummy`, qui hérite de `ATarget`.
    - Son type doit être initialisé à "Target Practice Dummy".
    - Implémente la méthode `clone`, qui retourne un pointeur vers un nouvel objet `Dummy`.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
