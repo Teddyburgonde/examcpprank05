@@ -23,7 +23,6 @@
 
 
 
-
 <br>
 
 
@@ -38,7 +37,7 @@
 | 2️⃣     | Classe abstraite ASpell                                       | 🔁 x1      |
 | 3️⃣     | Classe abstraite ATarget                                      | 🔁 x1      |
 | 4️⃣     | Sort concret : Fwoosh (hérite de ASpell)                      | ✅ x5      |
-| 5️⃣     | Cible concrète : Dummy (hérite de ATarget)                    | ⏳ x0      |
+| 5️⃣     | Cible concrète : Dummy (hérite de ATarget)                    | 🔁 x3      |
 | 6️⃣     | Warlock : apprendre / oublier / lancer des sorts (logique)    | ⏳ x0      |
 
 ---

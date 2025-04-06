@@ -69,31 +69,6 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 4. **Implémentation concrète de ASpell :**
    - Crée une classe appelée `Fwoosh`, qui hérite de `ASpell`.
    - Le constructeur par défaut doit initialiser :
@@ -136,12 +111,31 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 
 
 
+
 5. **Implémentation concrète de ATarget :**
    - Crée une classe appelée `Dummy`, qui hérite de `ATarget`.
    - Son type doit être initialisé à "Target Practice Dummy".
    - Implémente la méthode `clone`, qui retourne un pointeur vers un nouvel objet `Dummy`.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
