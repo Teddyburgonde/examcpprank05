@@ -72,3 +72,42 @@
 - 🔁 : En cours d’entraînement
 - ⏳ : Pas encore commencée
 - `xN` : Nombre de tentatives effectuées
+
+
+
+<br>
+
+
+# 🎯 Plan de révision express – `cpp_module02` (sur 2 jours)
+
+---
+
+## 🟢 Jour 1 – Cimenter les bases
+
+- [ ] 🔥 Partie 1 : Créer `Fireball` et `Polymorph` (héritent de `ASpell`)
+- [ ] 🧱 Partie 2 : Créer `BrickWall` (hérite de `ATarget`)
+- [ ] 📘 Partie 3 : Implémenter `SpellBook`
+  - [ ] learnSpell()
+  - [ ] forgetSpell()
+  - [ ] createSpell()
+- [ ] 🔁 Refaire `SpellBook` au moins 1 fois (chrono conseillé)
+
+---
+
+## 🟡 Jour 2 – Intégration et logique finale
+
+- [ ] 🧙 Partie 4 : Intégrer le `SpellBook` dans la classe `Warlock`
+  - [ ] Utiliser `learnSpell()` / `forgetSpell()` / `launchSpell()` via le spellbook
+- [ ] 🎯 Partie 5 : Créer `TargetGenerator`
+  - [ ] learnTarget()
+  - [ ] forgetTarget()
+  - [ ] createTarget()
+- [ ] 🧪 Partie 6 : Faire un `main.cpp` de test complet (lancer des sorts sur des cibles)
+- [ ] 🧠 Répéter un test global final sans regarder les notes (chrono)
+
+---
+
+## ⏱️ Objectif final :
+- 2 jours → 5h max
+- 1 test complet fonctionnel
+- 90–100% de compréhension + automatisme

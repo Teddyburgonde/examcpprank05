@@ -1,18 +1,12 @@
 #include "Dummy.hpp"
-#include "ATarget.hpp"
 
 
-Dummy::Dummy() :ATarget("Target Practice Dummy")
-{}
-
-Dummy::~Dummy(){}
-
-Dummy::Dummy(Dummy const &cpy): ATarget(cpy)
+Dummy::Dummy():ATarget("Target Practice Dummy")
 {
 
 }
 
-Dummy &Dummy::operator=(Dummy const &rhs)
+Dummy& Dummy::operator=(Dummy const& rhs)
 {
 	if (this != &rhs)
 	{
@@ -21,9 +15,15 @@ Dummy &Dummy::operator=(Dummy const &rhs)
 	return (*this);
 }
 
-ATarget* Dummy::clone() const
+Dummy::Dummy(Dummy const &cpy):ATarget(cpy)
+{
+
+}
+
+Dummy::~Dummy(){}
+
+ATarget * Dummy::clone() const
 {
 	return new Dummy(*this);
 }
-
 
