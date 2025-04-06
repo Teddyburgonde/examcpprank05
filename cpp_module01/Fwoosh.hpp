@@ -1,17 +1,14 @@
 #pragma once
 
-#include <string>
-#include <iostream>
 #include "ASpell.hpp"
 
-class Fwoosh : public ASpell{
-
-	public:
+class Fwoosh : public ASpell
+{
+	public :
 		Fwoosh();
-		virtual ~Fwoosh();
-
-	protected:
 		Fwoosh(Fwoosh const &cpy);
+		virtual ~Fwoosh();
 		Fwoosh &operator=(Fwoosh const &rhs);
-		virtual ASpell* clone() const;
+		ASpell* clone() const;
+
 };
