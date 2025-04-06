@@ -24,7 +24,7 @@
 
 
 
-
+<br>
 
 
 
@@ -40,6 +40,31 @@
 | 4️⃣     | Sort concret : Fwoosh (hérite de ASpell)                      | ✅ x5      |
 | 5️⃣     | Cible concrète : Dummy (hérite de ATarget)                    | ⏳ x0      |
 | 6️⃣     | Warlock : apprendre / oublier / lancer des sorts (logique)    | ⏳ x0      |
+
+---
+
+### 📓 Légende
+- ✅ : Partie maîtrisée
+- 🔁 : En cours d’entraînement
+- ⏳ : Pas encore commencée
+- `xN` : Nombre de tentatives effectuées
+
+
+<br>
+
+
+# 🧙 cpp_module02
+
+## Sujet — Système de magie avancé avec SpellBook & TargetGenerator
+
+| Partie | Description                                                            | Tentatives |
+|--------|------------------------------------------------------------------------|------------|
+| 1️⃣     | Création de nouveaux sorts : `Fireball`, `Polymorph`                 | ⏳ x0      |
+| 2️⃣     | Création de la cible `BrickWall`                                      | ⏳ x0      |
+| 3️⃣     | Classe `SpellBook` (apprentissage, oubli, création de sorts)         | ⏳ x0      |
+| 4️⃣     | Modification de `Warlock` pour intégrer un `SpellBook`               | ⏳ x0      |
+| 5️⃣     | Classe `TargetGenerator` (gestion de cibles dynamiques)              | ⏳ x0      |
+| 6️⃣     | Intégration finale : test complet avec `main()`                      | ⏳ x0      |
 
 ---
 
