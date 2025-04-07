@@ -58,7 +58,7 @@
 
 | Partie | Description                                                            | Tentatives |
 |--------|------------------------------------------------------------------------|------------|
-| 1️⃣     | Création de nouveaux sorts : `Fireball`, `Polymorph`                 | ⏳ x0      |
+| 1️⃣     | Création de nouveaux sorts : `Fireball`, `Polymorph`                 | ✅ x5      |
 | 2️⃣     | Création de la cible `BrickWall`                                      | ⏳ x0      |
 | 3️⃣     | Classe `SpellBook` (apprentissage, oubli, création de sorts)         | ⏳ x0      |
 | 4️⃣     | Modification de `Warlock` pour intégrer un `SpellBook`               | ⏳ x0      |
@@ -84,8 +84,8 @@
 
 ## 🟢 Jour 1 – Cimenter les bases
 
-- [ ] 🔥 Partie 1 : Créer `Fireball` et `Polymorph` (héritent de `ASpell`)
-- [ ] 🧱 Partie 2 : Créer `BrickWall` (hérite de `ATarget`)
+- [✅ x5 ] 🔥 Partie 1 : Créer `Fireball` et `Polymorph` (héritent de `ASpell`)
+- [🔁] 🧱 Partie 2 : Créer `BrickWall` (hérite de `ATarget`)
 - [ ] 📘 Partie 3 : Implémenter `SpellBook`
   - [ ] learnSpell()
   - [ ] forgetSpell()
