@@ -87,7 +87,7 @@
 - [✅ x5 ] 🔥 Partie 1 : Créer `Fireball` et `Polymorph` (héritent de `ASpell`)
 - [✅ x5] 🧱 Partie 2 : Créer `BrickWall` (hérite de `ATarget`)
 - [ ] 📘 Partie 3 : Implémenter `SpellBook`
-  - [ ] learnSpell()
+  - [ [✅ x5]] learnSpell()
   - [ ] forgetSpell()
   - [ ] createSpell()
 - [ ] 🔁 Refaire `SpellBook` au moins 1 fois (chrono conseillé)
