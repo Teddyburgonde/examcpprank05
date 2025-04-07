@@ -48,7 +48,7 @@ void Warlock::forgetSpell(std::string const &nameOfSort)
 	}
 }
 
-void Warlock::lauchSpell(std::string const &nameOfSort, ATarget const & target)
+void Warlock::launchSpell(std::string const &nameOfSort, ATarget const & target)
 {
 	std::map<std::string, ASpell*>::iterator it = _spells.find(nameOfSort);
 	if (it != _spells.end())
