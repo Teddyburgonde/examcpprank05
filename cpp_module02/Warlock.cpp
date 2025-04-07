@@ -34,8 +34,13 @@ void Warlock::introduce() const
 
 void Warlock::learnSpell(ASpell* const &spell)
 {
-	if(spell)
+	if (spell)
+	{
+		spell->getName();
+		if (_spells.find(spell->getName()) != _spells.end())
+			delete _spells[spell->getName()];
 		_spells[spell->getName()] = spell->clone();
+	}
 }
 
 void Warlock::forgetSpell(std::string const &nameOfSort)
