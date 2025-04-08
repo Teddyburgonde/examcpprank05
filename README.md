@@ -60,7 +60,7 @@
 |--------|------------------------------------------------------------------------|------------|
 | 1️⃣     | Création de nouveaux sorts : `Fireball`, `Polymorph`                 | ✅ x5      |
 | 2️⃣     | Création de la cible `BrickWall`                                      | ✅ x5     |
-| 3️⃣     | Classe `SpellBook` (apprentissage, oubli, création de sorts)         | ⏳ x0      |
+| 3️⃣     | Classe `SpellBook` (apprentissage, oubli, création de sorts)         | ✅ x5       |
 | 4️⃣     | Modification de `Warlock` pour intégrer un `SpellBook`               | ⏳ x0      |
 | 5️⃣     | Classe `TargetGenerator` (gestion de cibles dynamiques)              | ⏳ x0      |
 | 6️⃣     | Intégration finale : test complet avec `main()`                      | ⏳ x0      |
@@ -87,10 +87,10 @@
 - [✅ x5 ] 🔥 Partie 1 : Créer `Fireball` et `Polymorph` (héritent de `ASpell`)
 - [✅ x5] 🧱 Partie 2 : Créer `BrickWall` (hérite de `ATarget`)
 - [ ] 📘 Partie 3 : Implémenter `SpellBook`
-  - [ [✅ x5]] learnSpell()
-  - [ ] forgetSpell()
-  - [ ] createSpell()
-- [ ] 🔁 Refaire `SpellBook` au moins 1 fois (chrono conseillé)
+  - [✅ x5] learnSpell()
+  - [✅ x5] forgetSpell()
+  - [✅ x5] createSpell()
+- [⏳ x0] 🔁 Refaire `SpellBook` au moins 1 fois (chrono conseillé)
 
 ---
 
