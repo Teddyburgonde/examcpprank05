@@ -12,11 +12,11 @@ class ATarget {
 		virtual ~ATarget();
 		std::string const & getType() const;
 		void getHitBySpell(ASpell const & spell) const;
+		virtual ATarget* clone() const = 0;
 		
 		protected:
 		ATarget();
 		ATarget(ATarget const &cpy);
 		ATarget &operator=(ATarget const &rhs);
 		std::string _type;
-		virtual ATarget* clone() const = 0;
 };

@@ -188,6 +188,15 @@ Dans les classes **Warlock**, **SpellBook** et **TargetGenerator**, **l'utilisat
      - `void forgetTargetType(std::string const &)` : **Supprime une cible** du générateur si elle est connue.
      - `ATarget* createTarget(std::string const &)` : **Crée et retourne une cible** en fonction de son type.
 
+
+
+
+
+
+
+
+
+
 ---
 
 ### Exemple de test
