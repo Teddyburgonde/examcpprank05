@@ -1,5 +1,10 @@
 #include "TargetGenerator.hpp"
 
+TargetGenerator::TargetGenerator(){}
+
+TargetGenerator::~TargetGenerator(){}
+
+
 TargetGenerator::TargetGenerator(TargetGenerator const &src)
 {
     (void)src;
