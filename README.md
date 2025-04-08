@@ -96,7 +96,7 @@
 
 ## 🟡 Jour 2 – Intégration et logique finale
 
-- [ ] 🧙 Partie 4 : Intégrer le `SpellBook` dans la classe `Warlock`
+- [✅ x5] 🧙 Partie 4 : Intégrer le `SpellBook` dans la classe `Warlock`
   - [ ] Utiliser `learnSpell()` / `forgetSpell()` / `launchSpell()` via le spellbook
 - [ ] 🎯 Partie 5 : Créer `TargetGenerator`
   - [ ] learnTarget()

@@ -149,8 +149,37 @@ Dans les classes **Warlock**, **SpellBook** et **TargetGenerator**, **l'utilisat
 4. **Modification de la classe `Warlock` :**
    - Le `Warlock` doit maintenant **posséder un livre de sorts** (`SpellBook`).
    - Ce livre est **créé avec lui** et **détruit avec lui**.
+   
+ 
    - Les fonctions `learnSpell` et `forgetSpell` du `Warlock` doivent maintenant **appeler celles du `SpellBook`**.
    - La fonction `launchSpell` doit **utiliser le `SpellBook`** pour créer et lancer le sort demandé.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 5. **Implémentation de la classe `TargetGenerator` :**
    - Crée une classe **TargetGenerator**, en forme canonique, qui **ne peut pas être copiée**.
