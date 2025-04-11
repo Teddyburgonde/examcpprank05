@@ -10,14 +10,19 @@ int main()
 
   Dummy bob;
   Fwoosh* fwoosh = new Fwoosh();
+  Fwoosh* second = new Fwoosh();
 
   richard.learnSpell(fwoosh);
+  richard.learnSpell(second);
 
   richard.introduce();
   richard.launchSpell("Fwoosh", bob);
 
   richard.forgetSpell("Fwoosh");
   richard.launchSpell("Fwoosh", bob);
+
+  delete fwoosh;
+  delete second;
+
+  return 0;
 }
-
-

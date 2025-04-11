@@ -32,11 +32,17 @@ void Warlock::introduce() const
 	std::cout << _name << ": I am "<< _name << ", " << _title << "!" << std::endl;
 }
 
-void Warlock::learnSpell(ASpell* const &spell)
+void  Warlock::learnSpell(ASpell* const& aspell)
 {
-	if(spell)
-		_spells[spell->getName()] = spell->clone();
+    if (aspell)
+    {
+        std::map<std::string, ASpell*>::iterator it = _spells.find(aspell->getName());
+        if (it != _spells.end())
+            delete it->second;
+        _spells[aspell->getName()]= aspell->clone();
+    }
 }
+
 
 void Warlock::forgetSpell(std::string const &nameOfSort)
 {

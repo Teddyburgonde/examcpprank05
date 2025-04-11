@@ -112,6 +112,10 @@ Dans les classes **Warlock**, **SpellBook** et **TargetGenerator**, **l'utilisat
    - Elle doit contenir les fonctions suivantes :
      - `void learnSpell(ASpell*)` : 
      **Ajoute une copie** d'un sort dans le livre de sorts.
+
+
+
+
      - `void forgetSpell(std::string const &)` : 
      **Supprime un sort** du livre (sauf s'il n'y est pas).
      - `ASpell* createSpell(std::string const &)` : 
