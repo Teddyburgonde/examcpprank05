@@ -38,6 +38,37 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 ---
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 2. **Classe abstraite ATarget :**
    - Crée une classe abstraite appelée `ATarget`, également en suivant la forme de Coplien.
    - Elle doit contenir l'attribut **type** (type `string`) et son **getter** :
@@ -59,12 +90,106 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 3. **Méthode dans ASpell :**
    - Ajoute à la classe `ASpell` une méthode `launch` :
      - Elle prend une référence constante vers un objet `ATarget`.
      - Cette méthode appelle la méthode `getHitBySpell` de l'objet passé en paramètre, en lui passant l'instance actuelle comme argument.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -77,6 +202,72 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
    - Implémente la méthode `clone`, qui retourne un pointeur vers un nouvel objet `Fwoosh`.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -155,11 +346,6 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
 
 
 
-
-
-
-
-
 6. **Classe Warlock :**
    - Ajoute à la classe `Warlock` les fonctions membres suivantes :
 
@@ -190,6 +376,43 @@ Dans la classe `Warlock`, **l'utilisation du switch est INTERDITE**, et son util
    c'est à toi de choisir le meilleur.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Exemple d'exécution :

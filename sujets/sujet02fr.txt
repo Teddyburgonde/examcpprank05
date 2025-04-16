@@ -77,9 +77,67 @@ Dans les classes **Warlock**, **SpellBook** et **TargetGenerator**, **l'utilisat
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 2. **Création d'une nouvelle cible :**
    - Ajoute une nouvelle cible que le `Warlock` pourra attaquer :
      - **BrickWall** (Type : "Inconspicuous Red-brick Wall").
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -112,10 +170,6 @@ Dans les classes **Warlock**, **SpellBook** et **TargetGenerator**, **l'utilisat
    - Elle doit contenir les fonctions suivantes :
      - `void learnSpell(ASpell*)` : 
      **Ajoute une copie** d'un sort dans le livre de sorts.
-
-
-
-
      - `void forgetSpell(std::string const &)` : 
      **Supprime un sort** du livre (sauf s'il n'y est pas).
      - `ASpell* createSpell(std::string const &)` : 
@@ -150,13 +204,83 @@ Dans les classes **Warlock**, **SpellBook** et **TargetGenerator**, **l'utilisat
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 4. **Modification de la classe `Warlock` :**
    - Le `Warlock` doit maintenant **posséder un livre de sorts** (`SpellBook`).
    - Ce livre est **créé avec lui** et **détruit avec lui**.
+   - Les fonctions `learnSpell` et `forgetSpell` du `Warlock` doivent
+   maintenant **appeler celles du `SpellBook`**.
    
- 
-   - Les fonctions `learnSpell` et `forgetSpell` du `Warlock` doivent maintenant **appeler celles du `SpellBook`**.
-   - La fonction `launchSpell` doit **utiliser le `SpellBook`** pour créer et lancer le sort demandé.
+
+
+- La fonction `launchSpell` doit **utiliser le `SpellBook`** 
+   pour créer et lancer le sort demandé.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -186,22 +310,61 @@ Dans les classes **Warlock**, **SpellBook** et **TargetGenerator**, **l'utilisat
 
 
 5. **Implémentation de la classe `TargetGenerator` :**
-   - Crée une classe **TargetGenerator**, en forme canonique, qui **ne peut pas être copiée**.
+   - Crée une classe **TargetGenerator**, en forme canonique,
+    qui **ne peut pas être copiée**.
    - Elle doit contenir les fonctions suivantes :
      - `void learnTargetType(ATarget*)` : Ajoute une **cible connue** au générateur.
      - `void forgetTargetType(std::string const &)` : **Supprime une cible** du générateur si elle est connue.
      - `ATarget* createTarget(std::string const &)` : **Crée et retourne une cible** en fonction de son type.
 
-
-
-
-
-
-
-
-
-
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Exemple de test
 

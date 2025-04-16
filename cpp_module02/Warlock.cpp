@@ -41,30 +41,38 @@ void Warlock::introduce() const
 
 void Warlock::learnSpell(ASpell* const&aspell)
 {
-	if (aspell)
-	{
-		std::map<std::string, ASpell*>::iterator it = _spells.find(aspell->getName());
-		if (it != _spells.end())
-		{
-			delete it->second;
-		}
-		_spells[aspell->getName()]= aspell->clone();
-	}
+	// if (aspell)
+	// {
+	// 	std::map<std::string, ASpell*>::iterator it = _spells.find(aspell->getName());
+	// 	if (it != _spells.end())
+	// 	{
+	// 		delete it->second;
+	// 	}
+	// 	_spells[aspell->getName()]= aspell->clone();
+	// }
+	spellbook.learnSpell(aspell);
 }
 
 void Warlock::forgetSpell(std::string const&nameOfSort)
 {
-	std::map<std::string, ASpell*>::iterator it = _spells.find(nameOfSort);
-	if (it != _spells.end())
-	{
-		delete it->second;
-		_spells.erase(it);
-	}
+	// std::map<std::string, ASpell*>::iterator it = _spells.find(nameOfSort);
+	// if (it != _spells.end())
+	// {
+	// 	delete it->second;
+	// 	_spells.erase(it);
+	// }
+	spellbook.forgetSpell(nameOfSort);
 }
 
 void Warlock::launchSpell(std::string const&nameOfSort, ATarget const& target)
 {
-	std::map<std::string, ASpell*>::iterator it = _spells.find(nameOfSort);
-	if (it != _spells.end())
-		it->second->launch(target);
+	// std::map<std::string, ASpell*>::iterator it = _spells.find(nameOfSort);
+	// if (it != _spells.end())
+	// 	it->second->launch(target);
+	ASpell *spell = spellbook.createSpell(nameOfSort);
+	if (spell)
+	{
+		spell->launch(target);
+		delete spell;
+	}
 }

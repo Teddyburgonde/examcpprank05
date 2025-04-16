@@ -1,13 +1,11 @@
-	#pragma once
+#pragma once
+#include "ASpell.hpp"
 
-	#include "ASpell.hpp"
-
-	class Polymorph : public ASpell
-	{
-		public:
+class ASpell;
+class Polymorph : public ASpell
+{
+	public:
 		Polymorph();
 		~Polymorph();
-		Polymorph(Polymorph const& cpy);
-		Polymorph& operator=(Polymorph const &rhs);
-		ASpell *clone() const;
-	};
+		Polymorph* clone() const;
+};
